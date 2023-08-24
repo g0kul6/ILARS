@@ -2,9 +2,9 @@
 
 <samp>
 
-<h2> Multimodal Reasoning and Language Prompting for Interactive Learning Assistant for Robotic Surgery. </h1>
+<h1> Multimodal Reasoning and Language Prompting for Interactive Learning Assistant for Robotic Surgery. </h1>
 
-<h4> Gokul Kannan*, Lalithkumar Seenivasan*, and Hongliang Ren </h3>
+<h3> Gokul Kannan*, Lalithkumar Seenivasan*, and Hongliang Ren </h3>
 
 </samp>  
 
