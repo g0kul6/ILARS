@@ -32,4 +32,4 @@ conda env create -f env.yml
 python app.py
 ```
 ## ILARS UI
-![alt text](imgs/overview.png)
+![alt text](imgs/UI-Sample.jpeg)
