@@ -1,4 +1,16 @@
-# ILARS - Multimodal Reasoning and Language Prompting for Interactive Learning Assistant for Robotic Surgery.
+<div align="center">
+
+<samp>
+
+<h2> Multimodal Reasoning and Language Prompting for Interactive Learning Assistant for Robotic Surgery. </h1>
+
+<h4> Gokul Kannan*, Lalithkumar Seenivasan*, and Hongliang Ren </h3>
+
+</samp>  
+
+</div>     
+    
+<!-- # ILARS - Multimodal Reasoning and Language Prompting for Interactive Learning Assistant for Robotic Surgery. -->
 ## Setup
 ### Conda env setup
 ```bash
