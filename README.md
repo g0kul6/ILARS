@@ -12,10 +12,12 @@
     
 <!-- # ILARS - Multimodal Reasoning and Language Prompting for Interactive Learning Assistant for Robotic Surgery. -->
 ## Setup
-### Conda env setup
+### Basic setup
 ```bash
 git clone https://github.com/g0kul6/ILARS.git
 cd ILARS/
+mkdir checkpoints
+touch api.txt
 conda env create -f env.yml 
 ```
 ### Download sample videos
