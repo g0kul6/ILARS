@@ -4,7 +4,7 @@
 
 <h1> Interactive Learning Assistant for Robotic Surgery. </h1>
 
-<h3> Lalithkumar Seenivasan*, Gokul Kannan*, Chwee Ming Lim and Hongliang Ren </h3>
+<h3> Lalithkumar Seenivasan*, Gokul Kannan*, Chwee Ming Lim, Hongliang Ren** </h3>
 
 </samp>  
 
