@@ -1,3 +1,3 @@
-# SurgVQA_UI
-Python UI for Surgical VQA
-![alt text](UI-Sample.jpeg)
+# ILARS - Multimodal Reasoning and Language Prompting for Interactive Learning Assistant for Robotic Surgery.
+ILARS UI
+![alt text](imgs/overview.png)
