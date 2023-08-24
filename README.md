@@ -20,12 +20,13 @@ mkdir checkpoints
 touch api.txt
 conda env create -f env.yml 
 ```
-* Place your openai api in the created api.txt file.  
+* Place your openai-api key in api.txt.  
 ### Download sample videos
 * Sample Video 1 Link : 
 * Sample Video 2 Link :
 ### Download models
 * Model Link :
+* Place your downloaded model in the checkpoints folder.
 ### Host app 
 ```bash
 python app.py
