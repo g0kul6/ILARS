@@ -1,3 +1,4 @@
+import os
 import cv2
 import gradio as gr 
 from app_eval import eval
@@ -12,6 +13,8 @@ with gr.Blocks(css="footer {visibility: hidden}", title="Surgical-AI") as demo:
     """)
     # Video Upload Button
     video_upload = gr.UploadButton(label="Upload the Video", file_types=["video"])
+    # example video
+    video = gr.Video(visible=False)
     # slider
     slider = gr.Slider(maximum=200,interactive=True,steps=1)
     # image
@@ -21,7 +24,10 @@ with gr.Blocks(css="footer {visibility: hidden}", title="Surgical-AI") as demo:
     # function to get individual frames form video
     def get_frame(video):
         frames.clear()
-        cap = cv2.VideoCapture(video.name)
+        if str(type(video)) == "<class 'str'>":
+            cap = cv2.VideoCapture(video)
+        else:
+            cap = cv2.VideoCapture(video.name)
         i = 0
         for i in range(201):
             ret, frame = cap.read()
@@ -32,6 +38,14 @@ with gr.Blocks(css="footer {visibility: hidden}", title="Surgical-AI") as demo:
             i += 1
         cap.release()
         cv2.destroyAllWindows()
+    # Examples 
+    gr.Examples(
+        examples=["/home/gokul/g0kul6/ILARS/video1.mp4"],
+        inputs=video,
+        fn=get_frame,
+        outputs = video_upload,
+        cache_examples=True,
+    )
     # if upload button is triggered 
     video_upload.upload(fn=get_frame, inputs=[video_upload])
     # function to return slider based indexed frame

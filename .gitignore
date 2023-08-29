@@ -2,6 +2,10 @@
 .vscode/
 *pyc
 
+*.mp4
+
 checkpoints/
 
 api.txt
+
+gradio_cached_examples/
